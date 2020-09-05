@@ -49,14 +49,14 @@ public class activity_login extends AppCompatActivity {
         setupLoginInfo();
 
         //LOADS BANNER AD
-        MobileAds.initialize(this, "ENER YOUR UNIQUE APP ID HERE FOR ADMOB");
+        MobileAds.initialize(this, "@string/appID");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         //LOADS INTERSTITIAL AD
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ENTER YOUR INTERSTITIAL AD UNIT ID HERE");
+        mInterstitialAd.setAdUnitId("@string/interstitialAdUnitID");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         mEmailView = findViewById(R.id.login_email);
