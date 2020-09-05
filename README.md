@@ -17,7 +17,7 @@ You can go through this: https://firebase.google.com/docs/android/setup
 Now, you need to add `google-services.json` given by firebase to app directory.
 
 ### Step 5: Setting up google ads (optional).
-If you want to add ads in this project all the setup is done all you have to do is add your unique appid and adunitid to the specified places.
+If you want to add ads in this project all the setup is done all you have to do is add your unique appid and adunitid to the specified places in string.xml file.
 You can get appid and adunitid from admob. Go though this: https://developers.google.com/admob
 
 ### Step 6: This is it.
