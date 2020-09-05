@@ -26,6 +26,6 @@ You can get appid and adunitid from admob. Go though this: https://developers.go
 
 ### Step 6: This is it.
 After this all, all thats left is to run the app
-
+</br>
 ## :v: Contributing
 After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
