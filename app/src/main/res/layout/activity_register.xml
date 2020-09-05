@@ -93,7 +93,7 @@
         android:layout_marginTop="305dp"
         android:layout_marginBottom="1dp"
         app:adSize="BANNER"
-        app:adUnitId="PUT YOUR BANNER AD UNIT ID HERE">
+        app:adUnitId="@string/bannerAdUnitID">
 
     </com.google.android.gms.ads.AdView>
 
