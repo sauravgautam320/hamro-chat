@@ -21,6 +21,10 @@
         completions."
     </string>
     <string name="sample_message">Hello!</string>
+    <string name="appID">PUT YOUR UNIQUE APP ID HERE FOR ADMOB</string>
+    <string name="bannerAdUnitID">PUT YOUR BANNER AD UNIT ID HERE FOR ADMOB</string>
+    <string name="interstitialAdUnitID">PUT YOUR INTERSTITIAL AD UNIT ID HERE FOR ADMOB</string>
+    
 
 
 </resources>
