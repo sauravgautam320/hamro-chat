@@ -53,14 +53,14 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         //loads banner ad
-        MobileAds.initialize(this, "PUT YOUR UNIQUE APP ID HERE FOR ADMOB");
+        MobileAds.initialize(this, "@string/appID");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         //loads interstitial ad
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("PUT YOUR INTERSTITIAL AD UNIT ID HERE");
+        mInterstitialAd.setAdUnitId("@string/interstitialAdUnitID");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         //initializing widgets:
