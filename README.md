@@ -1,8 +1,8 @@
 <p align= "center">
 <img src="https://github.com/sauravgautam320/hamro-chat/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png?=true" /> </p>
 
-<p align = "center">
-hello  </p>
+<h1 align = "center">
+hamro-chat </h1>
 Hamro Chat is an android app developed using android studio IDE, basic JAVA language knowledge, Firebase as a realtime database host, and one novice programmer with plenty of free time🤣
 
 ## :rocket: Quick start
